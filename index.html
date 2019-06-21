@@ -1,0 +1,22 @@
+<body>
+  <form id="top" style="justify-content: center; padding-top: 212px;" class="form-inline"
+    onsubmit="app.controllers.itunesCtrl.getMusic(event)">
+    <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
+    <div class="form-group">
+      <input type="text" class="form-control" name="artist" placeholder="Artist Name" />
+      <button type="submit" class="btn btn-primary" id="get-music-button">Get Music</button>
+    </div>
+  </form>
+  <form id="bottom" style="padding-top: 30px; justify-content: center; color: white;">
+    <div class="container">
+      <div id="songs" class="row">
+
+      </div>
+    </div>
+
+  </form>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="module" src="app/main.js"></script>
+</body>
+
+</html>
