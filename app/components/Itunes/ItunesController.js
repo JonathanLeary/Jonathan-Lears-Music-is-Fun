@@ -1,4 +1,5 @@
-import ItunesService from "./itunes-service.js";
+import ItunesService from "./ItunesService";
+
 //Private
 const itunesService = new ItunesService()
 

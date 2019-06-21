@@ -1,4 +1,4 @@
-import ItunesController from "./components/Itunes/itunes-controller.js";
+import ItunesController from "./app/components/Itunes/ItunesController";
 
 
 class App {
